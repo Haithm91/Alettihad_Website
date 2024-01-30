@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Alettihad School</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<section class="sub-header-blog">
+  <nav>
+    <a href="index.html"><img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+     <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+  <h1 style="margin-top: 50px;">Summer Program 2024</h1>
+</section>
+
+  <!---------blog page content ---------->
+
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="images/certificate.jpg">
+        <h2>About The Summer Program 2024</h2>
+        <p>Parents want their children to have fun and learn over summer. So, our school set up a great 2024 summer program! Loads of courses are on offer, so students can pick what interests them most. It's all about having a fun and picking up new skills at the same time.</p>
+        <br>
+        <p>Check out the courses on the right! They're the summer programs for 2024 by our school. You can see how many students signed up for each course. If some of you want a course that's not listed, just tell us! We'd love to add it for you if the number of the group is enough. It's all about making this summer awesome for everyone!</p>
+        <br>
+        <p>Every course for this summer program has its own fee, but don't worry, they're all pretty affordable! These fees just cover the basics needed to make the program awesome. None of them are expensive, and we've made sure they're just enough to keep everything going smoothly.</p>
+        <br>
+        <p>To join a course, send us your full name, your email, and the course you want. Got another idea? Tell us! We'll discuss it with the parents, see if there's space, then add you. Simple! Just send us the details, and we'll make sure you're on the list for an awesome summer of learning and fun!</p>
+        
+        <div class="comment-box">
+          <h3>Join the program</h3>
+
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Chosen Course"></textarea>
+            <button type="submit" class="hero-btn red-btn">SEND</button>
+          </form>
+        </div>
+      
+      </div>
+      <div class="blog-right">
+        <h3>Our Courses</h3>
+        <div>
+          <span>Holy Quran</span>
+          <span>12</span>
+        </div>
+        <div>
+          <span>Computer Science</span>
+          <span>17</span>
+        </div>
+        <div>
+          <span>Englich Language</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Football</span>
+          <span>9</span>
+        </div>
+        <div>
+          <span>Cooking</span>
+          <span>6</span>
+        </div>
+        <div>
+          <span>Karate</span>
+          <span>11</span>
+        </div>
+        <div>
+          <span>Community Service</span>
+          <span>2</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--------- Footer ---------->
+
+  <section class="footer">
+    <h4>About Us </h4>
+    <p>We are a vibrant educational institution committed to fostering holistic growth, academic excellence, and a nurturing environment<br>for students to thrive and achieve their fullest potential</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/unionschool1" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    </div>
+    <p>Created by Haithm AL-Afif </p>
+  </section>
+
+  <!------JavaScript for Toggle Menu------>
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+
+  }
+</script>
+</body>
+</html>
+
