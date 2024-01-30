@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Alettihad School</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<section class="sub-header">
+  <nav>
+    <a href="index.html"><img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+     <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+  <h1 style="margin-top: 50px;">About Us</h1>
+</section>
+
+  <!--------- about us content ---------->
+
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>We're a leading educational institution in Sana'a</h1>
+      <p>As a pioneering educational institution in Sana'a, we foster an environment that champions academic excellence and holistic growth. Our commitment to providing top-notch education is mirrored in our innovative curriculum, dedicated faculty, and a vibrant community that thrives on intellectual curiosity and inclusivity. Through our unwavering dedication, we continually strive to shape the leaders of tomorrow, empowering students to excel in an ever-evolving world.</p>
+      <a href="contact.html" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+
+    <div class="about-col">
+      <img src="images/about.jpg">
+    </div>
+
+  </div>
+</section>  
+  <!--------- Footer ---------->
+
+  <section class="footer">
+    <h4>About Us </h4>
+    <p>We are a vibrant educational institution committed to fostering holistic growth, academic excellence, and a nurturing environment<br>for students to thrive and achieve their fullest potential</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/unionschool1" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    </div>
+    <p>Created by Haithm AL-Afif </p>
+  </section>
+
+  <!------JavaScript for Toggle Menu------>
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+
+  }
+</script>
+</body>
+</html>
+
