@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Alettihad School</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<section class="sub-header-services">
+  <nav>
+    <a href="index.html"><img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+     <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+  <h1 style="margin-top: 50px;">Our Services</h1>
+</section>
+
+  <!--------- Course ---------->
+
+  <section class="course">
+    <h1>Fueling Futures Together</h1>
+    <p>More Than Subjects: Explore, Engage, Excel!</p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Financial Aid</h3>
+        <p>
+          Recognizing financial challenges, our school assists families with a 12-month tuition installment plan, making education more accessible. This plan eases financial strain, ensuring that families can access education without facing overwhelming financial burdens, fostering inclusivity.</p> 
+      </div>
+      <div class="course-col">
+        <h3>Grants</h3>
+        <p>
+          In our dedication to student success, we offer fee reductions to the top three achievers. Contact us for more information on this initiative showcasing our commitment to fostering excellence among our students.</p> 
+      </div>
+      <div class="course-col">
+        <h3>Meal Programs</h3>
+        <p>In addition to our school cafeteria, we offer subsidized meals through a monthly fee, ensuring both budgeting convenience and access to nutritious food for students. This optional service aims to support healthy eating choices while providing flexibility for families.</p> 
+      </div>
+    </div>
+  </section>
+
+  <!---------Facilities---------->
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Discover our state-of-the-art facilities designed to inspire and support every student's learning experience</p> 
+    
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.png">
+        <h3>More than a Library</h3>
+        <p>Explore our enriched school library, a hub of knowledge and inspiration for every student's academic journey</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h3>Larg Playground</h3>
+        <p>Experience our vibrant school playground, a dynamic space fostering fun and active learning for all students</p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h3>Tasty and Healthy Food</h3>
+        <p>Enjoy tasty meals and good company at our school cafeteria, a welcoming space for all</p>
+      </div>
+
+    </div>
+
+  </section>
+  <!--------- Footer ---------->
+
+  <section class="footer">
+    <h4>About Us </h4>
+    <p>We are a vibrant educational institution committed to fostering holistic growth, academic excellence, and a nurturing environment<br>for students to thrive and achieve their fullest potential</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/unionschool1" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    </div>
+    <p>Created by Haithm AL-Afif </p>
+  </section>
+
+  <!------JavaScript for Toggle Menu------>
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+
+  }
+</script>
+</body>
+</html>
+
